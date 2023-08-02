@@ -1,0 +1,57 @@
+{
+    "characteristics": [
+        "color",
+        "price",
+        "material",
+        "brand"
+    ],
+    "products":[
+        {
+        "id":"00",
+        "name":"",
+        "type":"watch",
+        "img":"",
+        "description":"",
+        "price":""
+        },
+
+        {
+            "id":"01",
+            "name":"",
+            "type":"scarf",
+            "img":"",
+            "description":"",
+            "price":""
+    
+        },
+        {
+                "id":"02",
+                "name":"",
+                "type":"bag",
+                "img":"",
+                "description":"",
+                "price":""
+    
+        },
+        {
+            "id":"03",
+            "name":"",
+            "type":"sunglasses",
+            "img":"",
+            "description":"",
+            "price":""
+    
+            },
+        {
+            "id":"04",
+            "name":"",
+            "type":"shoes",
+            "img":"",
+            "description":"",
+            "price":""
+        
+        }
+            
+
+    ]
+}
