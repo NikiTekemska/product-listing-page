@@ -1,0 +1,26 @@
+.header nav{
+    display:inline-flex;  
+    padding: 0 10px;
+    
+}
+ul{
+    margin-inline-start: auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 20px;
+    font-family: 'PT Serif',serif;
+    font-style: italic;
+}
+
+.header p{
+    display: inline-block;
+    font-size:  30px;
+    font-family: 'PT Serif',serif;
+    font-style: italic;
+    margin-top: 10px;
+    
+    
+}
