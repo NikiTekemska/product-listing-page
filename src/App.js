@@ -9,10 +9,10 @@ function App() {
     fetch(`http://localhost:3000/products.json`)
         .then(res => res.json())
         .then(data => {
-          console.log(data)
+          setProducts(data.products)
         })
   },[]);
-
+ console.log(products)
   return (
     <div className="App">
       < Header />
