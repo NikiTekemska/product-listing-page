@@ -1,21 +1,17 @@
-import { useState, useEffect } from 'react';
 import './App.css';
 import { Header } from './components/Header';
 import { Filter } from './components/Filter';
+import { Products } from './components/Products';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    fetch(`http://localhost:3000/products.json`)
-        .then(res => res.json())
-        .then(data => {
-          setProducts(data.products)
-        })
-  },[]);
- console.log(products)
+  
   return (
     <div className="App">
       < Header />
+      <Routes>
+        <Route path='/:category' element={<Products />} />
+      </Routes>
       <Filter />
     </div>
   );
