@@ -4,6 +4,7 @@ import { ProductsCard } from './ProductsCard';
 
 export const Products = () =>{
     const [categoryProducts, setCategoryProducts] = useState([]);
+    const [values, setValues] = useState("");
     const { category } = useParams();
   useEffect(() => {
     fetch(`http://localhost:3000/products.json`)
@@ -13,8 +14,13 @@ export const Products = () =>{
         )
   },[category]);
   console.log(categoryProducts);
+
   const openFilter = () => {
 
+  }
+
+  const changeHandler = (e) => {
+    setValues(state => ({...state, [e.target.name]:e.target.value}))
   }
 
   return (
@@ -24,7 +30,7 @@ export const Products = () =>{
              <button onClick={openFilter}>Open filter</button>
              <div>
              <label htmlFor="sort">Sort</label>
-             <select name="sort" >
+             <select name="sort" value={values} onChange={changeHandler} >
              <option value="a-z">Alphabetical a-z</option>
              <option value="z-a">Alphabetical z-a</option>
              <option value="price-ascending">Price ascending</option>
