@@ -5,6 +5,9 @@ export const ProductsCard = ({
     price,
     description
 }) => {
+    const onAdd =() => {
+        alert("Product added to cart")
+    }
     return (
         <ul className={styles.ProductsCard}>
             <li>
@@ -12,7 +15,7 @@ export const ProductsCard = ({
                 <img src={img} alt="img" />
                 <h3>Price:{price}$</h3>
                 <h5>Description:{description}</h5>
-                <button>Add to cart</button>
+                <button onClick={onAdd}>Add to cart</button>
             </li>
         </ul>
 
