@@ -1,0 +1,19 @@
+.ProductsCard {
+    display: inline-flex;
+}
+
+.ProductsCard li {
+    background: rgb(208, 200, 200);
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 14px 14px 30px #464a4e, -14px -14px 30px #464a4e;
+}
+
+.ProductsCard img  {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 14px 14px 30px #464a4e, -14px -14px 30px #464a4e;
+}
