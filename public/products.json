@@ -1,13 +1,50 @@
 {
-    "characteristics": [
-        "color",
-        "price",
-        "material",
-        "brand"
-    ],
-    "products":[
+    "watches": [
         {
         "id":"00",
+        "brand":"Tissot",
+        "img":"https://www.chasovnici-bg.com/images/products/full/product_291734101.jpg",
+        "description":"",
+        "price":""
+        },
+
+        {
+            "id":"01",
+            "brand":"Tommy Hilfiger",
+            "img":"https://www.chasovnici-bg.com/images/products/full/product_1764211499.jpg",
+            "description":"",
+            "price":""
+    
+        },
+        {
+                "id":"02",
+                "brand":"Rolex",
+                "img":"https://www.replica-watches.is/wp-content/uploads/2022/07/R-J-116515BKSL-1-1.jpg",
+                "description":"",
+                "price":""
+    
+        },
+        {
+            "id":"03",
+            "brand":"Omega","img":"https://swisstime.co/images/products/p3797_i12280_th_omega-speedmaster-moonphase-co%E2%80%91axial-master-chronometer-chronograph-44-25-mm-ref--304-30-44-52.png",
+            "description":"",
+            "price":""
+    
+            },
+        {
+            "id":"04",
+            "brand":"Tom Tailor",
+            "img":"https://s13emagst.akamaized.net/products/33184/33183873/images/res_3e859424d8c1dee649f19122ed1e0c08.jpg",
+            "description":"",
+            "price":""
+        
+        }
+            
+
+    ],
+    "scarfs":[
+        {
+        "id":"05",
         "name":"",
         "type":"watch",
         "img":"",
@@ -16,7 +53,7 @@
         },
 
         {
-            "id":"01",
+            "id":"06",
             "name":"",
             "type":"scarf",
             "img":"",
@@ -25,7 +62,7 @@
     
         },
         {
-                "id":"02",
+                "id":"07",
                 "name":"",
                 "type":"bag",
                 "img":"",
@@ -34,7 +71,7 @@
     
         },
         {
-            "id":"03",
+            "id":"08",
             "name":"",
             "type":"sunglasses",
             "img":"",
@@ -43,9 +80,153 @@
     
             },
         {
-            "id":"04",
+            "id":"09",
             "name":"",
             "type":"shoes",
+            "img":"",
+            "description":"",
+            "price":""
+        
+        }
+            
+
+    ],
+    "shoes":[
+        {
+        "id":"09",
+        "name":"",
+        "type":"watch",
+        "img":"",
+        "description":"",
+        "price":""
+        },
+
+        {
+            "id":"10",
+            "name":"",
+            "type":"scarf",
+            "img":"",
+            "description":"",
+            "price":""
+    
+        },
+        {
+                "id":"11",
+                "name":"",
+                "type":"bag",
+                "img":"",
+                "description":"",
+                "price":""
+    
+        },
+        {
+            "id":"12",
+            "name":"",
+            "type":"sunglasses",
+            "img":"",
+            "description":"",
+            "price":""
+    
+            },
+        {
+            "id":"13",
+            "name":"",
+            "type":"shoes",
+            "img":"",
+            "description":"",
+            "price":""
+        
+        }
+            
+
+    ],
+    "bags":[
+        {
+        "id":"14",
+        "name":"",
+        "type":"watch",
+        "img":"",
+        "description":"",
+        "price":""
+        },
+
+        {
+            "id":"15",
+            "name":"",
+            "type":"scarf",
+            "img":"",
+            "description":"",
+            "price":""
+    
+        },
+        {
+                "id":"16",
+                "name":"",
+                "type":"bag",
+                "img":"",
+                "description":"",
+                "price":""
+    
+        },
+        {
+            "id":"17",
+            "name":"",
+            "type":"sunglasses",
+            "img":"",
+            "description":"",
+            "price":""
+    
+            },
+        {
+            "id":"18",
+            "name":"",
+            "type":"shoes",
+            "img":"",
+            "description":"",
+            "price":""
+        
+        }
+            
+
+    ],
+    "sunglasses":[
+        {
+        "id":"19",
+        "name":"",
+        
+        "img":"",
+        "description":"",
+        "price":""
+        },
+
+        {
+            "id":"20",
+            "name":"",
+            "img":"",
+            "description":"",
+            "price":""
+    
+        },
+        {
+                "id":"21",
+                "name":"",
+                "img":"",
+                "description":"",
+                "price":""
+    
+        },
+        {
+            "id":"22",
+            "name":"",
+            "type":"sunglasses",
+            "img":"",
+            "description":"",
+            "price":""
+    
+            },
+        {
+            "id":"23",
+            "name":"",
             "img":"",
             "description":"",
             "price":""
